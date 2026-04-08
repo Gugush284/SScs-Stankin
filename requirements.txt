@@ -1,2 +1,5 @@
 cryptography
 requests
+rich
+fastapi
+uvicorn
