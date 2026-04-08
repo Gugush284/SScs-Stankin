@@ -90,3 +90,41 @@
 
 # SScs-Stankin
 Simple Sign client-server connection example from MSUT "Stankin" course
+
+---
+
+## Запуск
+
+### Создать и активировать виртуальное окружение
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Установить зависимости
+
+```bash
+pip install -r requirements.txt
+```
+
+### Запустить сервер
+
+```bash
+python server.py
+```
+
+Сервер запустится на `http://localhost:8000`.
+
+### 5. Запустить клиент (в отдельном терминале)
+
+```bash
+source venv/bin/activate
+python client.py
+```
+
+### 6. Деактивировать окружение после завершения
+
+```bash
+deactivate
+```
